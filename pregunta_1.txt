@@ -1,0 +1,3 @@
+Hash del commit donde resolví el conflicto: 07e7d7759a5b9ebe3cd675f70aa93b89af418d1f
+
+Este hash es útil para ubicar de manera rápida y directa el commit al cual referencia.
