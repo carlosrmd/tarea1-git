@@ -1,0 +1,25 @@
+Pregunta 3
+
+Working directory: Directorio de trabajo donde están los archivos que van a ser modificados
+para luego agregarse al staging area (index).
+
+Index: El index o staging area es un archivo que contiene información sobre los archivos de tu 
+working directory que estarán en el próximo commit.
+
+Local repo: El local repo es el repositorio de git localizado en la computadora del usuario donde este
+trabaja con sus archivos. Está formado por el Working directory, el Index y el HEAD que apunta al 
+
+Remote repo: El repositorio remoto a diferencia del local está en los servidores de algún servicio 
+de repositorios de git tales como Github. Aquí mediante un push los cambios se almacenan en internet
+y mediante un pull actualizas los cambios que haya sufrido el repositorio remoto. La idea de manejar el
+repositorio remoto es poder trabajar con otros programadores en un mismo proyecto con control de versiones
+evitando los conflictos.
+
+Dirty working tree: Es un working directory donde existen archivos que no están siendo parte del proyecto
+que se está trabajando. No se ha aplicado add sobre ellos y no se toman en cuenta pero son reconocidos al
+momento de que GIT te diga los archivos que faltan agregarse al Index.
+
+Merge conflict: Es un error que te muestra GIT cuando intentas mezclar dos ramas de trabajo del proyecto
+que fueron modificadas ambas en una misma parte. GIT detecta el problema y al momento de que intentes
+ejecutar merge te dirá el Merge Conflict al no poder mezclar los códigos porque no puede saber cual es
+el correcto.
